@@ -23,7 +23,6 @@ export default function Home() {
       </Head>
       <Canvas>
         <ambientLight />
-        <pointLight position={[10, 10, 10]} />
         <OrbitControls />
         <Suspense fallback={null}>
           <Bus />
