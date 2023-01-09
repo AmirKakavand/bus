@@ -25,7 +25,7 @@ export default function Home() {
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
         <OrbitControls />
-        <Suspense>
+        <Suspense fallback={null}>
           <Bus />
         </Suspense>
       </Canvas>
